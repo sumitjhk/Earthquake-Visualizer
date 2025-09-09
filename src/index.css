@@ -1,0 +1,82 @@
+/* Reset & base */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* App container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.app-header {
+  text-align: center;
+  background: #1e3a8a;
+  color: white;
+  padding: 1rem;
+}
+
+/* Map section */
+.map-section {
+  flex: 1;
+  display: flex;
+}
+
+.map-container {
+  flex: 1;
+  height: 100%;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer */
+.app-footer {
+  text-align: center;
+  background: #e5e7eb;
+  padding: 0.75rem;
+  font-size: 0.9rem;
+}
+
+/* Error */
+.error-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.error-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.retry-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.retry-button:hover {
+  background: #3749a6;
+}
+
+/* Loading */
+.loading-text {
+  text-align: center;
+  margin: 1rem 0;
+}
