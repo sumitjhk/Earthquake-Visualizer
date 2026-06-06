@@ -67,11 +67,11 @@ A **production-grade, real-time earthquake monitoring SaaS** built with React, T
 | Layer | Current | Adding |
 |-------|---------|--------|
 | Map | Leaflet | + deck.gl heatmap, clustering, tectonic plates |
-| Charts | ❌ None | Recharts (bar, line, donut charts) |
-| Auth | ❌ None | Firebase Auth (Google + email) |
-| Payments | ❌ None | Stripe UI (pricing/subscription) |
-| Routing | ❌ None | OpenRouteService API |
-| State Management | ❌ None | Zustand global store |
+| Charts | None | Recharts (bar, line, donut charts) |
+| Auth | None | Firebase Auth (Google + email) |
+| Payments | None | Stripe UI (pricing/subscription) |
+| Routing | None | OpenRouteService API |
+| State Management | None | Zustand global store |
 | Data Fetching | Manual fetch | TanStack Query (polling + caching) |
 
 ---
